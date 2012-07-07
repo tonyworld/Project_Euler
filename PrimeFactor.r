@@ -7,15 +7,11 @@ PrimeFactor <- function(x, prime = prime) {
   # actually, a primality check could insert here
   for (i in 1:m) {
     prime.num <- prime[i]
-    if (x %% prime.num == 0) {
-      fac.count[i] <- 1
+    while (x %% prime.num == 0) {
+      fac.count[i] <- fac.count[i] + 1
       x = x / prime.num
-      while (x %% prime.num == 0) {
-        fac.count[i] <- fac.count[i] + 1
-        x = x / prime.num
-	    while (x == 1) break
-	  }
     }  
+  while (x == 1) break
   }
   return(fac.count)
 }
