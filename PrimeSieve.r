@@ -1,3 +1,5 @@
+## Copyright Tong Wei, July 2012
+
 ## to generate all primes less than a given integar "n"
 
 PrimeSieve <- function(n) {

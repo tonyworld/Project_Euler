@@ -1,3 +1,5 @@
+## Copyright Tong Wei, July 2012
+
 ## to determine primality of a given integar "x" 
 ## gmp::isprime() does the same work 
 

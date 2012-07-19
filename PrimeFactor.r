@@ -1,3 +1,5 @@
+## Copyright Tong Wei, July 2012
+
 ## to factorize an integar number into prime numbers
 
 PrimeFactor <- function(x, prime = prime) {
